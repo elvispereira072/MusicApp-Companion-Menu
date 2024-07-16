@@ -1,0 +1,370 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05ddf1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Primeiro LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            android:background="#05ddf1">
+
+            <ImageView
+                android:id="@+id/productImage1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/guitar"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:contentDescription="Guitar"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guitar"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: R$ 600.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productDiscount1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount: 10%"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/discountedPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discounted price: R$ 540.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/buyButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comprar Agora"
+                    android:background="@drawable/cta_button_background"
+                    android:textColor="#FF5722"
+                    android:layout_marginEnd="10dp" />
+
+                <Button
+                    android:id="@+id/addToCartButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicionar ao Carrinho"
+                    android:background="@drawable/cta_button_background"
+                    android:textColor="#ffffff"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/shareIcon1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_share"
+                    android:contentDescription="Share Icon"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageView
+                    android:id="@+id/ratingStar1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_star"
+                    android:contentDescription="Rating Star"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Segundo LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            android:background="#05ddf1">
+
+            <ImageView
+                android:id="@+id/productImage2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/contrabaixo"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:contentDescription="Contrabaixo"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contrabaixo"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productDescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: R$ 800.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productDiscount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount: 15%"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/discountedPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discounted price: R$ 680.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/buyButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comprar Agora"
+                    android:background="@drawable/cta_button_background"
+                    android:textColor="#FF5722"
+                    android:layout_marginEnd="10dp" />
+
+                <Button
+                    android:id="@+id/addToCartButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicionar ao Carrinho"
+                    android:background="@drawable/cta_button_background"
+                    android:textColor="#ffffff"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/shareIcon2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_share"
+                    android:contentDescription="Share Icon"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageView
+                    android:id="@+id/ratingStar2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_star"
+                    android:contentDescription="Rating Star"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Terceiro LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            android:background="#05ddf1">
+
+            <ImageView
+                android:id="@+id/productImage3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/drums"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:contentDescription="Drums"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drums"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productDescription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: R$ 1200.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/productDiscount3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount: 5%"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/discountedPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discounted price: R$ 1140.00"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/buyButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comprar Agora"
+                    android:background="@drawable/cta_button_background"
+                    android:textColor="#FF5722"
+                    android:layout_marginEnd="10dp" />
+
+                <Button
+                    android:id="@+id/addToCartButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicionar ao Carrinho"
+                    android:background="@drawable/cta_button_background"
+                    android:textColor="#ffffff"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/shareIcon3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_share"
+                    android:contentDescription="Share Icon"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageView
+                    android:id="@+id/ratingStar3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_star"
+                    android:contentDescription="Rating Star"
+                    android:layout_marginStart="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
